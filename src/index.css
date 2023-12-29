@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.login-page {
+  background-image: url(https://demo1.cybersoft.edu.vn/static/media/backapp.b46ef3a1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.form-login {
+  width: 30%;
+  height: 50%;
+  background: white;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  padding: 0 24px;
+}
+form#basic {
+  width: 90%;
+  height: 50%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-login {
+  width: 100%;
+}
